@@ -8,6 +8,7 @@ import java.awt.Graphics2D;
 import javax.swing.JPanel;
 
 public class GameScreen {
+	
 	//SCREEN SETTINGS
 	final int originalTileSize = 16;
 	final int scale = 3;
@@ -60,6 +61,7 @@ public class GameScreen {
 					update();
 					repaint();
 					delta--;
+					
 				}
 			}
 		}
